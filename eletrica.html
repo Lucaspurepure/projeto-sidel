@@ -4,13 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Materiais eletricos</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+        }
+        header {
+            background-color: rgba(0, 255, 255, 0.616);
+            color: rgb(1, 1, 100);
+            font-family: fantasy;
+            padding: 20px 0px 10px 0px;
+        }
+        #logo {
+            width: 50px;
+        }
+        #plogo {
+            font-size: 3em;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+        }
+        h2 {
+            text-align: center;
+        }
+        header > nav > a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            border: 1px solid rgba(0, 0, 0, 0.267);
+            background-color: rgb(1, 1, 160);
+            padding: 5px 10px 5px 10px;
+            margin-right: 2px;
+            margin-left: 0px;
+            border-radius: 10px;
+        }
+        header > nav > a:hover {
+            background-color: rgb(1, 1, 100);
+        }
+        main {
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+            padding-right: 20px;
+        }
+        table > tr, th, td {
+            border: 1px solid black; 
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        tr:nth-child(even) {
+            background-color: rgba(169, 169, 169, 0.616);
+        }
+        main {
+            background-image: url(imagens/background-4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left center;
+        }
+        footer {
+                background-color: rgba(0, 0, 0, 0.918);
+                color: rgba(255, 255, 255, 0.658);
+                height: 150px;
+                padding: 20px;
+            }
+            
+            footer > nav > a {
+                color: rgba(255, 255, 255, 0.664);
+                margin-bottom: 20px;
+                display: block;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.658);
+                width: fit-content;
+            }
+            footer > nav > a:hover {
+                color: white;
+            }
+    </style>
 </head>
 <body>
     <section>
         <header>
+             <p id="plogo"> <a href="index.html" target="_self" > <img src="imagens/logo-fonte-fresca.png" alt="logo" id="logo"> </a> Fonte fresca</p>
             <h1>
                 Departamento de Manutencao
             </h1>
+        
             <nav>
                 <a href="eletrica.html" target="_self">Eletrica</a>
                 <a href="mecanica.html" >Mecanica</a>
@@ -18,12 +100,157 @@
                 <a href="hidraulica.html" >Hidraulica</a>
                 <a href="noticias.html" >Noticias</a>
             </nav>
+           
         </header>
         <main>
+            <h2>Lista de materiais em falta</h2>
+            <table>
+                <tr>
+                    <th>
+                        Item
+                    </th>
+                    <th>
+                        Maquina
+                    </th>
+                    <th>
+                        Quantidade
+                    </th>
+                    <th>
+                        Descricao
+                    </th>
+                    <th>
+                        Estado
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Sensores
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Leem a velocidade da maquina
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Eletrovalvula
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Eletrovalvula do sopro e pre-sopro
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Potenciometro
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        7
+                    </td>
+                    <td>
+                        Potenciometro de regulacao de temperatura do forno
+                    </td>
+                    <td>
+                        pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Potenciometro
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Potenciometro de regulacao da velocidade da maquina
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Pyromat
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Dispositivo de controle de aquecimento do forno
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Display
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Visor de alarmes e estado da maquina
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Rele de estado solido
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Dispositivo de contole de aquecimento de resistencias
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
 
+            </table>
         </main>
         <footer>
-
+            <nav>
+                <a href="">Termos de politica e privacidade</a>
+                <a href="">Contactos</a> 
+                <a href="">Sobre nos</a> 
+                <a href="">Noticias</a>  
+            </nav>
         </footer>
     </section>
 </body>
