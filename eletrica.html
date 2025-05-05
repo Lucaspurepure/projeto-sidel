@@ -9,6 +9,7 @@
             padding: 0px;
             margin: 0px;
             text-decoration: none;
+            
         }
         header {
             background-color: rgba(0, 255, 255, 0.616);
@@ -44,11 +45,27 @@
         header > nav > a:hover {
             background-color: rgb(1, 1, 100);
         }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar a {
+                
+                text-align: center;
+                padding: 12px 0;
+            }
+        }
         main {
             padding-top: 40px;
             padding-left: 20px;
             padding-bottom: 40px;
             padding-right: 20px;
+            
+        }
+        
+        .table {
+            overflow-x: auto;
         }
         table > tr, th, td {
             border: 1px solid black; 
@@ -56,6 +73,11 @@
         }
         table {
             border-collapse: collapse;
+            background-color: rgba(137, 43, 226, 0.637);
+        }
+        .th {
+            background-color: rgba(0, 0, 0, 0.801);
+            color: white;
         }
         tr:nth-child(even) {
             background-color: rgba(169, 169, 169, 0.616);
@@ -93,7 +115,7 @@
                 Departamento de Manutencao
             </h1>
         
-            <nav>
+            <nav class="navbar">
                 <a href="eletrica.html" target="_self">Eletrica</a>
                 <a href="mecanica.html" >Mecanica</a>
                 <a href="pneumatica.html" >Pneumatica</a>
@@ -102,10 +124,10 @@
             </nav>
            
         </header>
-        <main>
+        <main class="table">
             <h2>Lista de materiais em falta</h2>
             <table>
-                <tr>
+                <tr class="th">
                     <th>
                         Item
                     </th>
