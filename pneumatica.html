@@ -4,47 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Materiais pneumaticos</title>
-    <style>
-        *{
-            padding: 0px;
-            margin: 0px;
-            text-decoration: none;
-        }
-        body, html {
-            height: 100vh;
-        }
-        header {
-            background-color: rgba(0, 255, 255, 0.616);
-            color: rgb(1, 1, 100);
-            font-family: fantasy;
-            padding: 20px 0px 10px 0px;
-        }
-        #logo {
-            width: 50px;
-        }
-        #plogo {
-            font-size: 3em;
-            text-align: center;
-        }
-        h1 {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            margin-bottom: 10px;
-        }
-        header > nav > a {
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            border: 1px solid rgba(0, 0, 0, 0.267);
-            background-color: rgb(1, 1, 160);
-            padding: 5px 10px 5px 10px;
-            margin-right: 2px;
-            margin-left: 0px;
-            border-radius: 10px;
-        }
-        header > nav > a:hover {
-            background-color: rgb(1, 1, 100);
-        }
-    </style>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <section>
@@ -53,7 +13,7 @@
             <h1>
                 Departamento de Manutencao
             </h1>
-            <nav>
+            <nav class="navbar">
                 <a href="eletrica.html" >Eletrica</a>
                 <a href="mecanica.html" >Mecanica</a>
                 <a href="pneumatica.html" target="_self">Pneumatica</a>
@@ -61,10 +21,153 @@
                 <a href="noticias.html" >Noticias</a>
             </nav>
         </header>
-        <main>
-
+        <main class="table">
+            <h2>Lista de materiais em falta</h2>
+            <table>
+                <tr class="th">
+                    <th>
+                        Item
+                    </th>
+                    <th>
+                        Maquina
+                    </th>
+                    <th>
+                        Quantidade
+                    </th>
+                    <th>
+                        Descricao
+                    </th>
+                    <th>
+                        Estado
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Valvula reguladora de pressao
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Valvula do ar de sopro primario
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valvula reguladora de pressao
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Valvula do sopro secundario
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valvula de 3 vias
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Valvulas de sopro com silenciador
+                    </td>
+                    <td>
+                        pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cilindro de estiramento
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Cilindro de estiramento
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Regulador de pressao
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Regulador de pressao dos movimentos dos cilindros
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Valvula de estiramento
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Valvula pneumatica com acionamento mecanico
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mangueira pneumatica
+                    </td>
+                    <td>
+                        SIDEL
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Mangueira do cilindro de estiramento
+                    </td>
+                    <td>
+                        Pedido
+                    </td>
+            </table>
         </main>
         <footer>
+            <nav>
+                <a href="">Termos de politica e privacidade</a>
+                <a href="">Contactos</a> 
+                <a href="">Sobre nos</a> 
+                <a href="">Noticias</a>  
+            </nav>
         </footer>
     </section>
 </body>

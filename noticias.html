@@ -4,44 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticias</title>
-    <style>
-        *{
-            padding: 0px;
-            margin: 0px;
-            text-decoration: none;
-        }
-        header {
-            background-color: rgba(0, 255, 255, 0.616);
-            color: rgb(1, 1, 100);
-            font-family: fantasy;
-            padding: 20px 0px 10px 0px;
-        }
-        #logo {
-            width: 50px;
-        }
-        #plogo {
-            font-size: 3em;
-            text-align: center;
-        }
-        h1 {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            margin-bottom: 10px;
-        }
-        header > nav > a {
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            border: 1px solid rgba(0, 0, 0, 0.267);
-            background-color: rgb(1, 1, 160);
-            padding: 5px 10px 5px 10px;
-            margin-right: 2px;
-            margin-left: 0px;
-            border-radius: 10px;
-        }
-        header > nav > a:hover {
-            background-color: rgb(1, 1, 100);
-        }
-    </style>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <section>
@@ -50,7 +13,7 @@
             <h1>
                 Departamento de Manutencao
             </h1>
-            <nav>
+            <nav class="navbar">
                 <a href="eletrica.html" >Eletrica</a>
                 <a href="mecanica.html" >Mecanica</a>
                 <a href="pneumatica.html" >Pneumatica</a>
@@ -59,9 +22,21 @@
             </nav>
         </header>
         <main>
+            <section class="noticias">
+                <h1>Informacoes dos diversos sectores e departamentos</h1>
+                <p>
+                    Para se manter atualizado sobre tudo que envolva a unidade fabril, nois diversos sectores e departamentos, visite sempre esta pagina. aqui serao anunciados os eventos, os programas de producao, a nova dinamica de trabalho, e todas outras informacoes relevantes e de importancia de todos os colaboradores. visite sempre
+                </p>
+            </section>
 
         </main>
         <footer>
+            <nav>
+                <a href="">Termos de politica e privacidade</a>
+                <a href="">Contactos</a> 
+                <a href="">Sobre nos</a> 
+                <a href="">Noticias</a>  
+            </nav>
         </footer>
     </section>
 </body>
