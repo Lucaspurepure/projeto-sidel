@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    align-items: center;
+    background-color: white;
+}
+img {
+    width: 150px;
+    height: 150px;
+    
+}
+div {
+    display: inline-block;
+}
+

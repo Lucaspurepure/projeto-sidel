@@ -10,11 +10,14 @@ body, html {
 }
 
 header {
-    background-color: rgba(0, 255, 255, 0.616);
+    
+    background-image: url(imagens/slider-15L-new.jpg);
+    background-size: cover;
+    height: 150px;
 }
 header > h1 {
     text-align: center;
-    color: rgb(0, 0, 145);
+    color: white;
     padding-bottom: 20px;
 }
 #logo {
@@ -22,12 +25,14 @@ header > h1 {
     margin: auto;
     width: 70px;
     text-decoration: none;
+    display: none;
+    
 }
 #plogo {
     font-size: 3em;
     text-align: center;
     font-family: fantasy;
-    color: rgb(0, 0, 145);
+    color: white;
 }
 .navhome {
     padding-top: 20px;
